@@ -1,0 +1,6 @@
+# - name: Add {{ repo_name }} key to Snap
+#   apt_key:
+#     url: "{{repo_key_url}}"
+#     state: present
+- name: Add repository {{ repo_name }} to Snap
+  # @todo shell
